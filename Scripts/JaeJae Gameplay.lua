@@ -41,9 +41,9 @@ local chance = math.random(1,3);
 
 
 --------------------------------------------------------------------------------------------------------------
-lane1 = false
-lane2 = false
-lane3 = false 
+lane1 = false;
+lane2 = false;
+lane3 = false;
 a = 0; 
 b = 0; 
 c = 0; 
@@ -58,7 +58,7 @@ laneChecker = function ()
 	
 	local rgb1= getColor(476,300); 
 	local rgb2 = getColor(367,259);
-	local rgb3 = getColor(307,220)
+	local rgb3 = getColor(307,220);
 	
 	if (rgb1 == 8943970) then 
 		lane1 = true 
@@ -96,56 +96,69 @@ deployTroops = function ()
 	end 
 end 
 
-laneChecker(); 
-deployTroops(); 
+
 --cat 
 tap(98.4,156.9)
 usleep(200000); 
 
+laneChecker(); 
+deployTroops(); 
 --mon1
 tap(79.1,324.4); 
 usleep(200000);
 tap(a,b);
 usleep(100000); 
 tap(c,d); 
-usleep(e,f);
+usleep(100000); 
+tap(e,f);
 usleep(200000);
 
+laneChecker(); 
+deployTroops(); 
 --mon2
 tap(81.4,478.2); 
 usleep(200000);
 tap(a,b);
 usleep(100000); 
 tap(c,d); 
-usleep(e,f);
+usleep(100000); 
+tap(e,f);
 usleep(200000);
 
+laneChecker(); 
+deployTroops(); 
 --mon3
 tap(85.9,654.7); 
 usleep(200000);
 tap(a,b);
 usleep(100000); 
 tap(c,d); 
-usleep(e,f);
+usleep(100000); 
+tap(e,f);
 usleep(200000);
 
+laneChecker(); 
+deployTroops(); 
 --mon4
 tap(81.4,810.1);  
 usleep(200000);
 tap(a,b);
 usleep(100000); 
 tap(c,d); 
-usleep(e,f);
+usleep(100000); 
+tap(e,f);
 usleep(200000); 
 
-
+laneChecker(); 
+deployTroops(); 
 --mon5
 tap(81.4,939.9);   
 usleep(200000);
 tap(a,b);
 usleep(100000); 
 tap(c,d); 
-usleep(e,f);
+usleep(100000); 
+tap(e,f);
 usleep(200000); 
 
 --ricecake
