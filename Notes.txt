@@ -1,0 +1,8 @@
+Jae Jae Script Notes: 
+
+Functions: 
+- checkLane: used to determine if untis can or cannot be deployed on lane. 
+	- if lane is true, then use deployTroops, insert (x,y) coordinate from checkLane 
+
+- deployTroops: after troop is selected deploy troop in correct lane 
+
